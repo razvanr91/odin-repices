@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+html {
+    height: 80%;
+}
+
+body {
+  background-image: url("/images/henry-co-tqu0IOMaiU8-unsplash.jpg");
+  background-size: cover;
+  width: auto;
+  color: black;
+}
+
+a:link {
+  text-decoration: underline;
+  color: black;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: black;
+}
+
+.recipe-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    height: 10%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
